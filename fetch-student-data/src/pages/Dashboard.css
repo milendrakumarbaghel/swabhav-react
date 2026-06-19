@@ -1,0 +1,11 @@
+.dashboard {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}

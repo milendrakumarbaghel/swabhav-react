@@ -1,0 +1,162 @@
+.profile-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px 18px 16px;
+  margin-bottom: 18px;
+}
+
+.profile-card__section-label {
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  color: #9ca3af;
+  font-weight: 600;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+.profile-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.profile-card__meta {
+  flex: 1;
+}
+
+.profile-card__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.profile-card__name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+  margin: 0;
+}
+
+.profile-card__email {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 2px 0 0;
+}
+
+.profile-card__course {
+  margin-bottom: 10px;
+}
+
+.profile-card__bio {
+  font-size: 13px;
+  color: #374151;
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+.profile-card__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.profile-card__skill-badge {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  font-size: 12px;
+  padding: 3px 10px;
+  color: #374151;
+}
+
+/* ── Ref Note ── */
+.ref-note {
+  margin-top: 10px;
+  font-size: 11px;
+  color: #9ca3af;
+  border-top: 2px solid #f59e0b;
+  padding-top: 8px;
+}/* styles/PreviewPanel.css */
+
+/* ── Profile Card ── */
+.profile-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px 18px 16px;
+  margin-bottom: 18px;
+}
+
+.profile-card__section-label {
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  color: #9ca3af;
+  font-weight: 600;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+.profile-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.profile-card__meta {
+  flex: 1;
+}
+
+.profile-card__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.profile-card__name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+  margin: 0;
+}
+
+.profile-card__email {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 2px 0 0;
+}
+
+.profile-card__course {
+  margin-bottom: 10px;
+}
+
+.profile-card__bio {
+  font-size: 13px;
+  color: #374151;
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+.profile-card__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.profile-card__skill-badge {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  font-size: 12px;
+  padding: 3px 10px;
+  color: #374151;
+}
+
+/* ── Ref Note ── */
+.ref-note {
+  margin-top: 10px;
+  font-size: 11px;
+  color: #9ca3af;
+  border-top: 2px solid #f59e0b;
+  padding-top: 8px;
+}

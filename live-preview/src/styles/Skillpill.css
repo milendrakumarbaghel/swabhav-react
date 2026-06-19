@@ -1,0 +1,28 @@
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #f3f4f6;
+  color: #374151;
+  border-radius: 999px;
+  font-size: 13px;
+  padding: 4px 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.skill-pill__remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+  font-size: 14px;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.skill-pill__remove:hover {
+  color: #ef4444;
+}
+ 

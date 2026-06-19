@@ -1,0 +1,111 @@
+/* General */
+.container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #1a1a1a;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.section-wrapper {
+  margin-bottom: 30px;
+}
+
+/* Fetch Button */
+.btn-fetch {
+  padding: 8px 20px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.btn-fetch:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* View Courses Button */
+.btn-view-courses {
+  padding: 5px 14px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* View Course Button */
+.btn-view-course {
+  padding: 5px 14px;
+  background-color: #7b1fa2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.table thead {
+  background-color: #f5f5f5;
+}
+
+.table th {
+  padding: 10px 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.table td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.table tr.highlight-blue {
+  background-color: #e3f2fd;
+}
+
+.table tr.highlight-purple {
+  background-color: #f3e5f5;
+}
+
+.table tr.no-highlight {
+  background-color: #fff;
+}
+
+/* Error */
+.error-text {
+  color: red;
+  font-size: 14px;
+}
+
+/* Empty / loading */
+.info-text {
+  font-size: 14px;
+  color: #555;
+}
