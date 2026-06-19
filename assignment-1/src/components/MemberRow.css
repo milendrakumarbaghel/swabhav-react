@@ -1,0 +1,51 @@
+.member-row {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.member-row:last-child {
+  border-bottom: none;
+}
+
+.member-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: #e8eaf6;
+  color: #3f51e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-right: 14px;
+}
+
+.member-info {
+  flex-grow: 1;
+}
+
+.member-name {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a1a2e;
+}
+
+.member-role {
+  font-size: 13px;
+  color: #888;
+}
+
+.member-experience {
+  font-size: 14px;
+  color: #888;
+  margin-right: 16px;
+}
+
+.member-chevron {
+  color: #bbb;
+  font-size: 18px;
+}

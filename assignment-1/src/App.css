@@ -1,0 +1,26 @@
+.app {
+  font-family: Inter, system-ui, sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.app-header {
+  background: #3f51e8;
+  border-radius: 12px;
+  padding: 20px 28px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.app-header__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.app-header__subtitle {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 14px;
+}

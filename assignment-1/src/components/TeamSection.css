@@ -1,0 +1,63 @@
+.team-section {
+  margin-bottom: 36px;
+}
+
+.team-section__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.team-section__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  color: #1a1a2e;
+}
+
+.team-section__separator {
+  color: #ccc;
+}
+
+.team-section__count-label {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Colour-coded badge — stretch goal */
+.team-section__badge {
+  border-radius: 999px;
+  padding: 1px 9px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.team-section__badge--green {
+  background-color: #22c55e;
+}
+
+.team-section__badge--amber {
+  background-color: #f59e0b;
+}
+
+.team-section__badge--red {
+  background-color: #ef4444;
+}
+
+/* Members card */
+.team-section__card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 0 16px;
+  background: #fff;
+}
+
+/* Empty state — stretch goal */
+.team-section__empty {
+  padding: 16px 0;
+  color: #aaa;
+  margin: 0;
+  font-size: 14px;
+}
